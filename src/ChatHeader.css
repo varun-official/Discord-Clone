@@ -1,0 +1,46 @@
+/** @format */
+
+.chatheder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: gray;
+  padding: 10px;
+}
+.chatheder__hash {
+  color: gray;
+  font-size: 30px;
+  padding: 10px;
+}
+.chatheder__left > h3 {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.chatheder__right {
+  display: flex;
+  align-items: center;
+  flex: 0.5;
+  justify-content: space-between;
+}
+.chatheder__right > .MuiSvgIcon-root {
+  padding: 5px;
+  cursor: pointer;
+}
+.chatheder__right > .MuiSvgIcon-root:hover {
+  color: white;
+}
+.chatheder__search {
+  display: flex;
+  align-items: center;
+  color: gray;
+  background-color: #2f3135;
+  border-radius: 3px;
+  padding: 3px;
+}
+.chatheder__search > input {
+  background: transparent;
+  outline-width: 0;
+  color: white;
+  border: none;
+}
